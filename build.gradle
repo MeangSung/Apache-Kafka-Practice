@@ -36,6 +36,8 @@ dependencies {
     implementation 'org.apache.kafka:kafka-clients:2.5.0'
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
     testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.30'
+    // https://mvnrepository.com/artifact/org.apache.kafka/kafka-streams
+    implementation group: 'org.apache.kafka', name: 'kafka-streams', version: '2.5.0'
 
 
 
